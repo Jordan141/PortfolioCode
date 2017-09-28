@@ -47,27 +47,40 @@ module.exports = {
         },
         "footer": " All rights and reservations of images belong to "
     },
-    "DE": {
+    "IE": {
+        "language": "Teanga",
         "navbar": {
             "brand": "Jordan Moss",
             "tiles": [
-                "","","",""
+                "ABHAILE","FAOI","TIONSCADAIL","LIONSA"
             ]
         },
         "banner": {
-            "title": "",
-            "sub": ""
+            "title": "Tionscadail",
+            "sub": "Suíomh Idirlín"
         },
         "about": {
-            "text": ""
+            "lineOne": "Teicneolaíochtaí Reatha: ReactJS, Redux, Webpack, Gulp, Git, Pug, Sass.",
+            "lineTwo": "Is mise 21 mbliana d'aois agus is forbróir bogearraí mé. Taim ag déan iarracht chun iarratais iontach a forbairt don cliantí, aga úsaid na teicneolaíochtaí is reatha.",
+            "lineThree": "De ghnáth, chaithim mo ám ar an céim dearadh don tíonscadál, in ionad códáil, chun a chinntiú go dtéann gach rud go maith",
+            "subtitle": "Forbróir bogearraí dícheallach ag baint úsaid as an teicneolíochta is reatha.",
+            "title": "Faoi Mé"
+        },
+        "contact": {
+            "title":"LIONSA",
+            "desc": "Ná bí cúthail! Cúr í dteaghmhail liom!"
         },
         "portfolio": {
             "title": "",
             "desc" : "",
             "projects": [
-            {"title": "x", "desc": "abc", "status": "" },
-            {"title": "y", "desc": "abc", "status": "" }
-            ]
+                {"title": "Hedonist", "desc": "A beer search engine, designed by myself & Michael Kurowski using ReactJS and Express.", "url": ProjectLinks['Hedonist'] },
+                {"title": "Portfolio", "desc": "A web application designed using ReactJS which shows my most notable projects.", "url": ProjectLinks['Portfolio'] },
+                {"title": "Realtime Customer Support", "desc": "Technologies: Sockets.IO, HTTPS, MongoDB Currently in progress - ~ October 2017", "url": ProjectLinks['Photography'] },
+                {"title": "Sunshine", "desc": "An Android application developed utilizing OpenWeatherMap API & GCM services.", "url": ProjectLinks['Sunshine'] },
+                {"title": "Popular Movies", "desc": "An Android application developed utilizing TMDB API & Android's internal SQLite DB", "url": ProjectLinks['Movies'] },
+                {"title": "Neural Network", "desc": "A basic neural network developed in C#, .NET 4.5, utilizing XML data storage.", "url": ProjectLinks['Network'] }
+              ]
         }
     },
     "PL": {
@@ -107,7 +120,7 @@ module.exports = {
         },
         "footer": " Wszystkie prawa do obrazów należą do "
     },
-    "IE": {
+    "DE": {
         "language": "Teanga",
         "navbar": {
             "brand": "Jordan Ó Maolmona",
@@ -140,49 +153,67 @@ module.exports = {
         }
     },
     "FR": {
+        "language": "Teanga",
         "navbar": {
-            "brand": "Jordan Moss",
+            "brand": "Jordan Ó Maolmona",
             "tiles": [
-                "","","",""
+                "ABHAILE","ABOUT","PORTFOLIO","CONTACT"
             ]
         },
         "banner": {
-            "title": "",
-            "sub": ""
+            "title": "Portfolio",
+            "sub": "A website by Jordan Moss"
         },
         "about": {
             "text": ""
         },
+        "contact": {
+            "title":"CONTACT",
+            "desc": "Don't be shy! Say Hello!"
+        },
         "portfolio": {
-            "title": "",
-            "desc" : "",
+            "title": "PORTFOLIO",
+            "desc": "Below you'll find some of my recent work.",
             "projects": [
-            {"title": "x", "desc": "abc", "status": "" },
-            {"title": "y", "desc": "abc", "status": "" }
-            ]
+            {"title": "Hedonist", "desc": "A very good application designed by me.", "status": "80%", "url": ProjectLinks['Hedonist'] },
+            {"title": "Portfolio", "desc": "A very good application designed by me.", "status": "50%", "url": ProjectLinks['Portfolio'] },
+            {"title": "Photography", "desc": "A very good application designed by me.", "status": "Design Phase", "url": ProjectLinks['Photography'] },
+            {"title": "Hedonist", "desc": "A very good application designed by me.", "status": "80%", "url": ProjectLinks['Hedonist'] },
+            {"title": "Portfolio", "desc": "A very good application designed by me.", "status": "50%", "url": ProjectLinks['Portfolio'] },
+            {"title": "Photography", "desc": "A very good application designed by me.", "status": "Design Phase", "url": ProjectLinks['Photography'] }
+          ]
         }
     },
     "ES": {
+        "language": "Teanga",
         "navbar": {
-            "brand": "Jordan Moss",
+            "brand": "Jordan Ó Maolmona",
             "tiles": [
-                "","","",""
+                "ABHAILE","ABOUT","PORTFOLIO","CONTACT"
             ]
         },
         "banner": {
-            "title": "",
-            "sub": ""
+            "title": "Portfolio",
+            "sub": "A website by Jordan Moss"
         },
         "about": {
             "text": ""
         },
+        "contact": {
+            "title":"CONTACT",
+            "desc": "Don't be shy! Say Hello!"
+        },
         "portfolio": {
-            "title": "",
-            "desc" : "",
+            "title": "PORTFOLIO",
+            "desc": "Below you'll find some of my recent work.",
             "projects": [
-            {"title": "x", "desc": "abc", "status": "" },
-            {"title": "y", "desc": "abc", "status": "" }
-            ]
+            {"title": "Hedonist", "desc": "A very good application designed by me.", "status": "80%", "url": ProjectLinks['Hedonist'] },
+            {"title": "Portfolio", "desc": "A very good application designed by me.", "status": "50%", "url": ProjectLinks['Portfolio'] },
+            {"title": "Photography", "desc": "A very good application designed by me.", "status": "Design Phase", "url": ProjectLinks['Photography'] },
+            {"title": "Hedonist", "desc": "A very good application designed by me.", "status": "80%", "url": ProjectLinks['Hedonist'] },
+            {"title": "Portfolio", "desc": "A very good application designed by me.", "status": "50%", "url": ProjectLinks['Portfolio'] },
+            {"title": "Photography", "desc": "A very good application designed by me.", "status": "Design Phase", "url": ProjectLinks['Photography'] }
+          ]
         }
     }
 }
