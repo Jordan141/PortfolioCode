@@ -9,7 +9,7 @@ const ProjectLinks = {
 
 
 module.exports = {
-    "languages": {'ENGLISH': 'EN','GAEILGE': 'IE','ESPAÑA': 'ES','DEUTSCH': 'DE','POLSKI': 'PL','FRANCAIS': 'FR', 'NORSK': 'NO'},
+    "languages": {'ENGLISH': 'EN', 'GAEILGE': 'IE', 'POLSKI': 'PL', 'NORSK': 'NO'},
     "EN": {
         "language": "Languages",
         "navbar": {
@@ -46,29 +46,6 @@ module.exports = {
           ]
         },
         "footer": " All rights and reservations of images belong to "
-    },
-    "DE": {
-        "navbar": {
-            "brand": "Jordan Moss",
-            "tiles": [
-                "","","",""
-            ]
-        },
-        "banner": {
-            "title": "",
-            "sub": ""
-        },
-        "about": {
-            "text": ""
-        },
-        "portfolio": {
-            "title": "",
-            "desc" : "",
-            "projects": [
-            {"title": "x", "desc": "abc", "status": "" },
-            {"title": "y", "desc": "abc", "status": "" }
-            ]
-        }
     },
     "PL": {
         "language": "Languages",
@@ -137,52 +114,6 @@ module.exports = {
             {"title": "Portfolio", "desc": "A very good application designed by me.", "status": "50%", "url": ProjectLinks['Portfolio'] },
             {"title": "Photography", "desc": "A very good application designed by me.", "status": "Design Phase", "url": ProjectLinks['Photography'] }
           ]
-        }
-    },
-    "FR": {
-        "navbar": {
-            "brand": "Jordan Moss",
-            "tiles": [
-                "","","",""
-            ]
-        },
-        "banner": {
-            "title": "",
-            "sub": ""
-        },
-        "about": {
-            "text": ""
-        },
-        "portfolio": {
-            "title": "",
-            "desc" : "",
-            "projects": [
-            {"title": "x", "desc": "abc", "status": "" },
-            {"title": "y", "desc": "abc", "status": "" }
-            ]
-        }
-    },
-    "ES": {
-        "navbar": {
-            "brand": "Jordan Moss",
-            "tiles": [
-                "","","",""
-            ]
-        },
-        "banner": {
-            "title": "",
-            "sub": ""
-        },
-        "about": {
-            "text": ""
-        },
-        "portfolio": {
-            "title": "",
-            "desc" : "",
-            "projects": [
-            {"title": "x", "desc": "abc", "status": "" },
-            {"title": "y", "desc": "abc", "status": "" }
-            ]
         }
     },
     "NO": {
