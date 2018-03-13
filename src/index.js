@@ -33,7 +33,6 @@ class App extends Component {
         <AboutMe data={about}/>
         <Portfolio data={portfolio} />
         <Contact desc={contact.desc} title={contact.title}/>
-        <footer className='footer'>{footer} <a href='https://instagram.com/fearonandrew/' target='_blank'> Andrew Fearon </a> - @FearonAndrew (IG) </footer>
       </div>
     );
   }

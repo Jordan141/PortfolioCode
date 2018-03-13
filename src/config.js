@@ -1,15 +1,15 @@
 const ProjectLinks = {
-    Hedonist: 'http://imageupper.com/s11/1/9/R15048963998852_1.jpg',
-    Portfolio: 'http://imageupper.com/s11/1/9/R15048963998852_7.png',
-    Photography: 'http://imageupper.com/s11/1/9/R15048963998852_4.jpg',
-    Sunshine: 'http://imageupper.com/s11/1/9/R15048963998852_8.jpg',
-    Movies: 'http://imageupper.com/s11/1/9/R15048963998852_3.jpg',
-    Network: 'http://imageupper.com/s11/1/9/R15048963998852_5.jpg'
+    Hedonist: './img/hedonist.jpg',
+    Portfolio: './img/portfolio.png',
+    Customer: './img/nature.jpg',
+    Sunshine: './img/sunshine.jpg',
+    Movies: './img/movies.jpg',
+    Network: './img/neural.jpg'
 }
 
 
 module.exports = {
-    "languages": {'ENGLISH': 'EN','GAEILGE': 'IE','ESPAÑA': 'ES','DEUTSCH': 'DE','POLSKI': 'PL','FRANCAIS': 'FR'},
+    "languages": {'ENGLISH': 'EN','GAEILGE': 'IE','ESPAÑA': 'ES','DEUTSCH': 'DE','POLSKI': 'PL','FRANCAIS': 'FR', 'NORSK': 'NO'},
     "EN": {
         "language": "Languages",
         "navbar": {
@@ -23,8 +23,8 @@ module.exports = {
             "sub": "A website by Jordan Moss"
         },
         "about": {
-            "lineOne": "Current technologies: ReactJS, Redux, Webpack, Gulp, Git, Pug, Sass.",
-            "lineTwo": "I'm a 21 year old Full-Stack web developer striving to develop great applications in the current web technologies.",
+            "lineOne": "Current technologies: ReactJS, Redux, Webpack, Gulp, Pug, Sass.",
+            "lineTwo": "I'm a 22 year old Full-Stack Web developer striving to create great applications in current web technologies.",
             "lineThree": "I usually spend more time on the design phase of a project than coding it, to ensure I'm using the appropriate frameworks and libraries.",
             "subtitle": "An assiduous Full-Stack web developer utilizing modern technologies.",
             "title": "About Me"
@@ -37,9 +37,9 @@ module.exports = {
             "title": "PORTFOLIO",
             "desc": "Below you'll find some of my recent work.",
             "projects": [
-            {"title": "Hedonist", "desc": "A beer search engine, designed by myself & Michael Kurowski using ReactJS and Express.", "url": ProjectLinks['Hedonist'] },
+            {"title": "Hedonist", "desc": "A craftbeer search engine, designed by myself & Michael Kurowski using ReactJS and Express.", "url": ProjectLinks['Hedonist'] },
             {"title": "Portfolio", "desc": "A web application designed using ReactJS which shows my most notable projects.", "url": ProjectLinks['Portfolio'] },
-            {"title": "Realtime Customer Support", "desc": "Technologies: Sockets.IO, HTTPS, MongoDB Currently in progress - ~ October 2017", "url": ProjectLinks['Photography'] },
+            {"title": "Customer App", "desc": "Currently in progress - completion date ~ 03/2018", "url": ProjectLinks['Customer'] },
             {"title": "Sunshine", "desc": "An Android application developed utilizing OpenWeatherMap API & GCM services.", "url": ProjectLinks['Sunshine'] },
             {"title": "Popular Movies", "desc": "An Android application developed utilizing TMDB API & Android's internal SQLite DB", "url": ProjectLinks['Movies'] },
             {"title": "Neural Network", "desc": "A basic neural network developed in C#, .NET 4.5, utilizing XML data storage.", "url": ProjectLinks['Network'] }
@@ -47,40 +47,27 @@ module.exports = {
         },
         "footer": " All rights and reservations of images belong to "
     },
-    "IE": {
-        "language": "Teanga",
+    "DE": {
         "navbar": {
             "brand": "Jordan Moss",
             "tiles": [
-                "ABHAILE","FAOI","TIONSCADAIL","LIONSA"
+                "","","",""
             ]
         },
         "banner": {
-            "title": "Tionscadail",
-            "sub": "Suíomh Idirlín"
+            "title": "",
+            "sub": ""
         },
         "about": {
-            "lineOne": "Teicneolaíochtaí Reatha: ReactJS, Redux, Webpack, Gulp, Git, Pug, Sass.",
-            "lineTwo": "Is mise 21 mbliana d'aois agus is forbróir bogearraí mé. Taim ag déan iarracht chun iarratais iontach a forbairt don cliantí, aga úsaid na teicneolaíochtaí is reatha.",
-            "lineThree": "De ghnáth, chaithim mo ám ar an céim dearadh don tíonscadál, in ionad códáil, chun a chinntiú go dtéann gach rud go maith",
-            "subtitle": "Forbróir bogearraí dícheallach ag baint úsaid as an teicneolíochta is reatha.",
-            "title": "Faoi Mé"
-        },
-        "contact": {
-            "title":"LIONSA",
-            "desc": "Ná bí cúthail! Cúr í dteaghmhail liom!"
+            "text": ""
         },
         "portfolio": {
             "title": "",
             "desc" : "",
             "projects": [
-                {"title": "Hedonist", "desc": "A beer search engine, designed by myself & Michael Kurowski using ReactJS and Express.", "url": ProjectLinks['Hedonist'] },
-                {"title": "Portfolio", "desc": "A web application designed using ReactJS which shows my most notable projects.", "url": ProjectLinks['Portfolio'] },
-                {"title": "Realtime Customer Support", "desc": "Technologies: Sockets.IO, HTTPS, MongoDB Currently in progress - ~ October 2017", "url": ProjectLinks['Photography'] },
-                {"title": "Sunshine", "desc": "An Android application developed utilizing OpenWeatherMap API & GCM services.", "url": ProjectLinks['Sunshine'] },
-                {"title": "Popular Movies", "desc": "An Android application developed utilizing TMDB API & Android's internal SQLite DB", "url": ProjectLinks['Movies'] },
-                {"title": "Neural Network", "desc": "A basic neural network developed in C#, .NET 4.5, utilizing XML data storage.", "url": ProjectLinks['Network'] }
-              ]
+            {"title": "x", "desc": "abc", "status": "" },
+            {"title": "y", "desc": "abc", "status": "" }
+            ]
         }
     },
     "PL": {
@@ -97,7 +84,7 @@ module.exports = {
         },
         "about": {
             "lineOne": "Zdolności w zakresie: ReactJS, Redux, Webpack, Gulp, Git, Pug, Sass.",
-            "lineTwo": "Jestem 21 letnim full-stack developerem. W skład moich pasji wchodzi tworzenie aplikacji internetowych przy wykorzystaniu obecnie używanych technologii.",
+            "lineTwo": "Jestem 22 letnim full-stack developerem. W skład moich pasji wchodzi tworzenie aplikacji internetowych przy wykorzystaniu obecnie używanych technologii.",
             "lineThree": "Zazwyczaj spędzam więcej czasu na planowaniu i projektowaniu niż pisaniu kodu, po to by upewnić się, że użyję do apliakcji odpowiednich frameworków i bibiliotek.",
             "subtitle": "Cierpliwy full-stack developer, używający nowoczesnych technologii.",
             "title": "O mnie"
@@ -112,7 +99,7 @@ module.exports = {
             "projects": [
             {"title": "Hedonist", "desc": "Wyszukiwarka piw, zaprojektowana przeze mnie oraz Michaela Kurowskiego przy użyciu ReactJS i Express.", "url": ProjectLinks['Hedonist'] },
             {"title": "Portfolio", "desc": "Aplikacja internetowa, stworzona w technologii ReactJS która prezentuje moje najistotniejsze projekty.", "url": ProjectLinks['Portfolio'] },
-            {"title": "Fotorgrafia", "desc": "W trakcie realizacji - data ukończenia ~ 10/07", "url": ProjectLinks['Photography'] },
+            {"title": "Fotorgrafia", "desc": "W trakcie realizacji - data ukończenia ~ 10/07", "url": ProjectLinks['Customer'] },
             {"title": "Sunshine", "desc": "Aplikacja na telefony z systemem Android, wykorzystująca OpenWeatherMap API oraz usługę GCM.", "url": ProjectLinks['Sunshine'] },
             {"title": "Popularne filmy", "desc": "Aplikacja na telefony z systemem Android, wykorzystująca TMDB API oraz wewnętrzną bazę danych Androida - SQLite", "url": ProjectLinks['Movies'] },
             {"title": "Sieć neuronowa", "desc": "Prosta sieć neuronowa, stworzona przy użyciu: C#, .NET 4.5, składująca dane w formacie XML.", "url": ProjectLinks['Network'] }
@@ -120,7 +107,7 @@ module.exports = {
         },
         "footer": " Wszystkie prawa do obrazów należą do "
     },
-    "DE": {
+    "IE": {
         "language": "Teanga",
         "navbar": {
             "brand": "Jordan Ó Maolmona",
@@ -153,67 +140,86 @@ module.exports = {
         }
     },
     "FR": {
-        "language": "Teanga",
         "navbar": {
-            "brand": "Jordan Ó Maolmona",
+            "brand": "Jordan Moss",
             "tiles": [
-                "ABHAILE","ABOUT","PORTFOLIO","CONTACT"
+                "","","",""
             ]
         },
         "banner": {
-            "title": "Portfolio",
-            "sub": "A website by Jordan Moss"
+            "title": "",
+            "sub": ""
         },
         "about": {
             "text": ""
         },
-        "contact": {
-            "title":"CONTACT",
-            "desc": "Don't be shy! Say Hello!"
-        },
         "portfolio": {
-            "title": "PORTFOLIO",
-            "desc": "Below you'll find some of my recent work.",
+            "title": "",
+            "desc" : "",
             "projects": [
-            {"title": "Hedonist", "desc": "A very good application designed by me.", "status": "80%", "url": ProjectLinks['Hedonist'] },
-            {"title": "Portfolio", "desc": "A very good application designed by me.", "status": "50%", "url": ProjectLinks['Portfolio'] },
-            {"title": "Photography", "desc": "A very good application designed by me.", "status": "Design Phase", "url": ProjectLinks['Photography'] },
-            {"title": "Hedonist", "desc": "A very good application designed by me.", "status": "80%", "url": ProjectLinks['Hedonist'] },
-            {"title": "Portfolio", "desc": "A very good application designed by me.", "status": "50%", "url": ProjectLinks['Portfolio'] },
-            {"title": "Photography", "desc": "A very good application designed by me.", "status": "Design Phase", "url": ProjectLinks['Photography'] }
-          ]
+            {"title": "x", "desc": "abc", "status": "" },
+            {"title": "y", "desc": "abc", "status": "" }
+            ]
         }
     },
     "ES": {
-        "language": "Teanga",
         "navbar": {
-            "brand": "Jordan Ó Maolmona",
+            "brand": "Jordan Moss",
             "tiles": [
-                "ABHAILE","ABOUT","PORTFOLIO","CONTACT"
+                "","","",""
             ]
         },
         "banner": {
-            "title": "Portfolio",
-            "sub": "A website by Jordan Moss"
+            "title": "",
+            "sub": ""
         },
         "about": {
             "text": ""
         },
+        "portfolio": {
+            "title": "",
+            "desc" : "",
+            "projects": [
+            {"title": "x", "desc": "abc", "status": "" },
+            {"title": "y", "desc": "abc", "status": "" }
+            ]
+        }
+    },
+    "NO": {
+        "language": "Språk",
+        "navbar": {
+            "brand": "Jordan Moss",
+            "tiles": [
+                "HJEM","OM MEG","PORTFOLIO","KONTAKTINFORMASJON"
+            ]
+        },
+        "banner": {
+            "title": "Portfolio",
+            "sub": "En nettside av Jordan Moss"
+        },
+        "about": {
+            "lineOne": "Kunnskap i gjeldende teknologier: ReactJS, Redux, Webpack, Gulp, Pug, Sass.",
+            "lineTwo": "Jeg er en 22 år gammel Full-Stack webutvikler som har et lidenskap for å lage gode applikasjoner i dagens webteknologi.",
+            "lineThree": "Jeg bruker vanligvis mer tid på å designe et prosjekt enn å kode det for å forsikre om at de beste rammeverker og biblioteker benyttes.",
+            "subtitle": "En flittig Full-Stack webutvikler som benytter dagens teknologi.",
+            "title": "Om meg"
+        },
         "contact": {
-            "title":"CONTACT",
-            "desc": "Don't be shy! Say Hello!"
+            "title":"Kontaktinformasjon",
+            "desc": "Ikke vær sjenert! Si hei!"
         },
         "portfolio": {
             "title": "PORTFOLIO",
-            "desc": "Below you'll find some of my recent work.",
+            "desc": "Nedenfor finner du noe av mitt nylige arbeid.",
             "projects": [
-            {"title": "Hedonist", "desc": "A very good application designed by me.", "status": "80%", "url": ProjectLinks['Hedonist'] },
-            {"title": "Portfolio", "desc": "A very good application designed by me.", "status": "50%", "url": ProjectLinks['Portfolio'] },
-            {"title": "Photography", "desc": "A very good application designed by me.", "status": "Design Phase", "url": ProjectLinks['Photography'] },
-            {"title": "Hedonist", "desc": "A very good application designed by me.", "status": "80%", "url": ProjectLinks['Hedonist'] },
-            {"title": "Portfolio", "desc": "A very good application designed by me.", "status": "50%", "url": ProjectLinks['Portfolio'] },
-            {"title": "Photography", "desc": "A very good application designed by me.", "status": "Design Phase", "url": ProjectLinks['Photography'] }
+            {"title": "Hedonist", "desc": "Søkemotor for håndverksbrygget øl, designet av meg selv og Michael Kurowski ved hjelp av ReactJS og Express.", "url": ProjectLinks['Hedonist'] },
+            {"title": "Portfolio", "desc": "Internett-applikasjon laget med ReactJS som viser mine mest bemerkelsesverdige prosjekter.", "url": ProjectLinks['Portfolio'] },
+            {"title": "Customer App", "desc": "Pågående prosjekt - sluttdato ~ 03/2018", "url": ProjectLinks['Customer'] },
+            {"title": "Sunshine", "desc": "Android-applikasjon som benytter OpenWeatherMap API og GCM-tjenester.", "url": ProjectLinks['Sunshine'] },
+            {"title": "Popular Movies", "desc": "Android-applikasjon som benytter TMDB API og Androids interne SQlite database.", "url": ProjectLinks['Movies'] },
+            {"title": "Neural Network", "desc": "Enkelt Nevralt nettverk laget i C#, .NET 4.5, benytter XML data lagring.", "url": ProjectLinks['Network'] }
           ]
-        }
+        },
+        "footer": " Alle bilderettigheter tilhører "
     }
 }

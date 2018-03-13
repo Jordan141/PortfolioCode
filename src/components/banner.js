@@ -3,7 +3,6 @@ import React, { Component} from 'react'
 class Banner extends Component {
     constructor(props){
         super(props)
-
     }
     render(){
         return (
@@ -11,7 +10,7 @@ class Banner extends Component {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-xs-12'>
-                            <h1> {this.props.title} </h1>
+                            <h1> {this.props.title.toUpperCase()} </h1>
                             <h5> {this.props.sub} </h5>
                             <blockquote className='quote bottom'>
                             <p> Memory is the scribe of the soul. </p>
@@ -27,5 +26,3 @@ class Banner extends Component {
 }
 
 export default Banner
-
-/*                                */
