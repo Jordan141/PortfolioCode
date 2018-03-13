@@ -39,15 +39,3 @@ class App extends Component {
 }
 
 render(<App />, document.querySelector('.wrapper'));
-
-//TODO LIST
-/*
---- Certification section
---- Randomize quotes
---- Geolocation option for localization
---- Brainstorm one more section (?)
---- choose heading colors.
---- Populate aboutme section
---- Translate sections
-
-*/
