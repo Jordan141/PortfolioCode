@@ -19,7 +19,7 @@ Webpack | v1.12.9
 
 #### To Do List [Development Purposes]
 ***
-* Revise and continue translations for most common languages.
+* Revise and continue translations for most common languages. (DE, IE, FR, ES)<br>
 **Important note: I will not be translating for every language.**
 * Correct styling error when the captions information exceed two lines.
 * Adjust color scheme for easier readability of banner.
