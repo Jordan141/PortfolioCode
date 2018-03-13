@@ -9,7 +9,9 @@ class Project extends Component{
             return(
             <div className="col-sm-6 col-md-4">
                 <div className="thumbnail">
-                    <img src={this.props.url} alt="Project Dummy"/>
+                    <a href={this.props.url} target='_blank'>
+                        <img src={this.props.imageURL} alt="Project Dummy"/>
+                    </a>
                     <div className="caption">
                         <h4>{this.props.title}</h4>
                         <p>{this.props.desc}</p>

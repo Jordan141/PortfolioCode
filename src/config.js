@@ -1,10 +1,19 @@
-const ProjectLinks = {
+const ImageLinks = {
     Hedonist: './img/hedonist.jpg',
     Portfolio: './img/portfolio.png',
     Customer: './img/nature.jpg',
     Sunshine: './img/sunshine.jpg',
     Movies: './img/movies.jpg',
     Network: './img/neural.jpg'
+}
+
+const ProjectLinks = {
+    Hedonist: 'https://github.com/michaelKurowski/hedonist',
+    Portfolio: 'https://github.com/Jordan141/PortfolioCode',
+    Customer: 'https://github.com/Jordan141/CustomerServiceApp',
+    Sunshine: 'https://github.com/Jordan141/SunshineWeatherApp',
+    Movies: 'https://github.com/Jordan141/PopularMoviesApp',
+    Network: 'https://github.com/Jordan141/NeuralNetwork'
 }
 
 
@@ -37,12 +46,12 @@ module.exports = {
             "title": "PORTFOLIO",
             "desc": "Below you'll find some of my recent work.",
             "projects": [
-            {"title": "Hedonist", "desc": "A craftbeer search engine, designed by myself & Michael Kurowski using ReactJS and Express.", "url": ProjectLinks['Hedonist'] },
-            {"title": "Portfolio", "desc": "A web application designed using ReactJS which shows my most notable projects.", "url": ProjectLinks['Portfolio'] },
-            {"title": "Customer App", "desc": "Currently in progress - completion date ~ 03/2018", "url": ProjectLinks['Customer'] },
-            {"title": "Sunshine", "desc": "An Android application developed utilizing OpenWeatherMap API & GCM services.", "url": ProjectLinks['Sunshine'] },
-            {"title": "Popular Movies", "desc": "An Android application developed utilizing TMDB API & Android's internal SQLite DB", "url": ProjectLinks['Movies'] },
-            {"title": "Neural Network", "desc": "A basic neural network developed in C#, .NET 4.5, utilizing XML data storage.", "url": ProjectLinks['Network'] }
+            {"title": "Hedonist", "desc": "A craftbeer search engine, designed by myself & Michael Kurowski using ReactJS and Express.", "imageURL": ImageLinks['Hedonist'], "url": ProjectLinks['Hedonist'] },
+            {"title": "Portfolio", "desc": "A web application designed using ReactJS which shows my most notable projects.", "imageURL": ImageLinks['Portfolio'], "url": ProjectLinks['Portfolio'] },
+            {"title": "Customer App", "desc": "Currently in progress - completion date ~ 03/2018", "imageURL": ImageLinks['Customer'], "url": ProjectLinks['Customer'] },
+            {"title": "Sunshine", "desc": "An Android application developed utilizing OpenWeatherMap API & GCM services.", "imageURL": ImageLinks['Sunshine'], "url": ProjectLinks['Sunshine'] },
+            {"title": "Popular Movies", "desc": "An Android application developed utilizing TMDB API & Android's internal SQLite DB", "imageURL": ImageLinks['Movies'], "url": ProjectLinks['Movies'] },
+            {"title": "Neural Network", "desc": "A basic neural network developed in C#, .NET 4.5, utilizing XML data storage.", "imageURL": ImageLinks['Network'], "url": ProjectLinks['Network'] }
           ]
         },
         "footer": " All rights and reservations of images belong to "
@@ -74,12 +83,12 @@ module.exports = {
             "title": "PORTFOLIO",
             "desc": "Poniżej znajdziesz niektóre z moich ostatnich prac.",
             "projects": [
-            {"title": "Hedonist", "desc": "Wyszukiwarka piw, zaprojektowana przeze mnie oraz Michaela Kurowskiego przy użyciu ReactJS i Express.", "url": ProjectLinks['Hedonist'] },
-            {"title": "Portfolio", "desc": "Aplikacja internetowa, stworzona w technologii ReactJS która prezentuje moje najistotniejsze projekty.", "url": ProjectLinks['Portfolio'] },
-            {"title": "Fotorgrafia", "desc": "W trakcie realizacji - data ukończenia ~ 10/07", "url": ProjectLinks['Customer'] },
-            {"title": "Sunshine", "desc": "Aplikacja na telefony z systemem Android, wykorzystująca OpenWeatherMap API oraz usługę GCM.", "url": ProjectLinks['Sunshine'] },
-            {"title": "Popularne filmy", "desc": "Aplikacja na telefony z systemem Android, wykorzystująca TMDB API oraz wewnętrzną bazę danych Androida - SQLite", "url": ProjectLinks['Movies'] },
-            {"title": "Sieć neuronowa", "desc": "Prosta sieć neuronowa, stworzona przy użyciu: C#, .NET 4.5, składująca dane w formacie XML.", "url": ProjectLinks['Network'] }
+            {"title": "Hedonist", "desc": "Wyszukiwarka piw, zaprojektowana przeze mnie oraz Michaela Kurowskiego przy użyciu ReactJS i Express.", "imageURL": ImageLinks['Hedonist'] },
+            {"title": "Portfolio", "desc": "Aplikacja internetowa, stworzona w technologii ReactJS która prezentuje moje najistotniejsze projekty.", "imageURL": ImageLinks['Portfolio'] },
+            {"title": "Fotorgrafia", "desc": "W trakcie realizacji - data ukończenia ~ 10/07", "imageURL": ImageLinks['Customer'] },
+            {"title": "Sunshine", "desc": "Aplikacja na telefony z systemem Android, wykorzystująca OpenWeatherMap API oraz usługę GCM.", "imageURL": ImageLinks['Sunshine'] },
+            {"title": "Popularne filmy", "desc": "Aplikacja na telefony z systemem Android, wykorzystująca TMDB API oraz wewnętrzną bazę danych Androida - SQLite", "imageURL": ImageLinks['Movies'] },
+            {"title": "Sieć neuronowa", "desc": "Prosta sieć neuronowa, stworzona przy użyciu: C#, .NET 4.5, składująca dane w formacie XML.", "imageURL": ImageLinks['Network'] }
           ]
         },
         "footer": " Wszystkie prawa do obrazów należą do "
@@ -107,12 +116,12 @@ module.exports = {
             "title": "PORTFOLIO",
             "desc": "Below you'll find some of my recent work.",
             "projects": [
-            {"title": "Hedonist", "desc": "A very good application designed by me.", "status": "80%", "url": ProjectLinks['Hedonist'] },
-            {"title": "Portfolio", "desc": "A very good application designed by me.", "status": "50%", "url": ProjectLinks['Portfolio'] },
-            {"title": "Photography", "desc": "A very good application designed by me.", "status": "Design Phase", "url": ProjectLinks['Photography'] },
-            {"title": "Hedonist", "desc": "A very good application designed by me.", "status": "80%", "url": ProjectLinks['Hedonist'] },
-            {"title": "Portfolio", "desc": "A very good application designed by me.", "status": "50%", "url": ProjectLinks['Portfolio'] },
-            {"title": "Photography", "desc": "A very good application designed by me.", "status": "Design Phase", "url": ProjectLinks['Photography'] }
+            {"title": "Hedonist", "desc": "A very good application designed by me.", "status": "80%", "imageURL": ImageLinks['Hedonist'] },
+            {"title": "Portfolio", "desc": "A very good application designed by me.", "status": "50%", "imageURL": ImageLinks['Portfolio'] },
+            {"title": "Photography", "desc": "A very good application designed by me.", "status": "Design Phase", "imageURL": ImageLinks['Photography'] },
+            {"title": "Hedonist", "desc": "A very good application designed by me.", "status": "80%", "imageURL": ImageLinks['Hedonist'] },
+            {"title": "Portfolio", "desc": "A very good application designed by me.", "status": "50%", "imageURL": ImageLinks['Portfolio'] },
+            {"title": "Photography", "desc": "A very good application designed by me.", "status": "Design Phase", "imageURL": ImageLinks['Photography'] }
           ]
         }
     },
@@ -143,12 +152,12 @@ module.exports = {
             "title": "PORTFOLIO",
             "desc": "Nedenfor finner du noe av mitt nylige arbeid.",
             "projects": [
-            {"title": "Hedonist", "desc": "Søkemotor for håndverksbrygget øl, designet av meg selv og Michael Kurowski ved hjelp av ReactJS og Express.", "url": ProjectLinks['Hedonist'] },
-            {"title": "Portfolio", "desc": "Internett-applikasjon laget med ReactJS som viser mine mest bemerkelsesverdige prosjekter.", "url": ProjectLinks['Portfolio'] },
-            {"title": "Customer App", "desc": "Pågående prosjekt - sluttdato ~ 03/2018", "url": ProjectLinks['Customer'] },
-            {"title": "Sunshine", "desc": "Android-applikasjon som benytter OpenWeatherMap API og GCM-tjenester.", "url": ProjectLinks['Sunshine'] },
-            {"title": "Popular Movies", "desc": "Android-applikasjon som benytter TMDB API og Androids interne SQlite database.", "url": ProjectLinks['Movies'] },
-            {"title": "Neural Network", "desc": "Enkelt Nevralt nettverk laget i C#, .NET 4.5, benytter XML data lagring.", "url": ProjectLinks['Network'] }
+            {"title": "Hedonist", "desc": "Søkemotor for håndverksbrygget øl, designet av meg selv og Michael Kurowski ved hjelp av ReactJS og Express.", "imageURL": ImageLinks['Hedonist'] },
+            {"title": "Portfolio", "desc": "Internett-applikasjon laget med ReactJS som viser mine mest bemerkelsesverdige prosjekter.", "imageURL": ImageLinks['Portfolio'] },
+            {"title": "Customer App", "desc": "Pågående prosjekt - sluttdato ~ 03/2018", "imageURL": ImageLinks['Customer'] },
+            {"title": "Sunshine", "desc": "Android-applikasjon som benytter OpenWeatherMap API og GCM-tjenester.", "imageURL": ImageLinks['Sunshine'] },
+            {"title": "Popular Movies", "desc": "Android-applikasjon som benytter TMDB API og Androids interne SQlite database.", "imageURL": ImageLinks['Movies'] },
+            {"title": "Neural Network", "desc": "Enkelt Nevralt nettverk laget i C#, .NET 4.5, benytter XML data lagring.", "imageURL": ImageLinks['Network'] }
           ]
         },
         "footer": " Alle bilderettigheter tilhører "

@@ -23,4 +23,5 @@ Webpack | v1.12.9
 **Important note: I will not be translating for every language.**
 * Correct styling error when the captions information exceed two lines.
 * Adjust color scheme for easier readability of banner.
+* Extend AboutMe section with more content.
 * Provide sources of all images used in the website. All are attained via royalty free image sites.

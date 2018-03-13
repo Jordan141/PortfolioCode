@@ -15,7 +15,7 @@ class Portfolio extends Component{
                             <h1> {this.props.data.title} </h1>
                             <p className='lead'>{this.props.data.desc}</p>
                         </div>
-                        {this.props.data.projects.map((x,i) => <Project key={i} title={x.title} desc={x.desc} url={x.url}/>)}
+                        {this.props.data.projects.map((x,i) => <Project key={i} title={x.title} desc={x.desc} imageURL={x.imageURL} url={x.url}/>)}
                     </div>
                 </div>
             </div>
