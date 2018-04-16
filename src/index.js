@@ -5,6 +5,7 @@ import Navbar from './components/navbar'
 import AboutMe from './components/aboutme'
 import Portfolio from './components/portfolio'
 import Contact from './components/contact'
+import Freecodecamp from './components/freecodecamp'
 import config from './config'
 let myLocalization = navigator.language || navigator.userLanguage;
 
