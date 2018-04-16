@@ -25,3 +25,4 @@ Webpack | v1.12.9
 * Adjust color scheme for easier readability of banner.
 * Extend AboutMe section with more content.
 * Provide sources of all images used in the website. All are attained via royalty free image sites.
+* Fix automatic language finder
